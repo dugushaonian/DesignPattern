@@ -2,19 +2,19 @@ package cn.edu.bjtu.dugufei.Singleton;
 
 
 /*
- * µ¥ÀıÄ£Ê½
- * ×÷ÓÃ£º±£Ö¤Õû¸öÓ¦ÓÃ³ÌĞòÖ»ÄÜÓĞÒ»¸öÊµÀı
- * ¶öººÊ½£¬ÀÁººÊ½
+ * å•ä¾‹æ¨¡å¼
+ * ä½œç”¨ï¼šä¿è¯æ•´ä¸ªåº”ç”¨ç¨‹åºåªèƒ½æœ‰ä¸€ä¸ªå®ä¾‹
+ * é¥¿æ±‰å¼
  */
 public class Singleton {
-	//¶öººÊ½
-	//1.¹¹Ôì·½·¨Ë½ÓĞ»¯£¬Íâ²¿²»ÄÜÊµÀı»¯
+	//é¥¿æ±‰å¼
+	//1.æ„é€ æ–¹æ³•ç§æœ‰åŒ–ï¼Œå¤–éƒ¨ä¸èƒ½å®ä¾‹åŒ–
 	private Singleton(){
 		
 	}
-	//2.´´½¨ÀàÎ¨Ò»ÊµÀı,private static
+	//2.åˆ›å»ºç±»å”¯ä¸€å®ä¾‹,private static
 	private static Singleton instance = new Singleton();
-	//3.Ìá¹©Ò»¸ö»ñÈ¡ÊµÀıµÄ·½·¨,public static
+	//3.æä¾›ä¸€ä¸ªè·å–å®ä¾‹çš„æ–¹æ³•,public static
 	public static Singleton getInstance() {
 		return instance;
 	}
