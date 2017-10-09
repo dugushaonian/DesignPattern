@@ -3,7 +3,7 @@ package cn.edu.bjtu.dugufei.SimpleFactory;
 import java.util.Map;
 
 /*
- * ·¢ĞÍ¹¤³§
+ * å‘å‹å·¥å‚
  */
 public class HairFactory {
 	public HairInterface getHair(String key){
@@ -18,7 +18,7 @@ public class HairFactory {
 		}
 	}
 	/**
-	 * ¸ù¾İÀàÃûÀ´Éú²ú¶ÔÏó
+	 * æ ¹æ®ç±»åæ¥ç”Ÿäº§å¯¹è±¡
 	 * @param className
 	 * @return
 	 */
@@ -33,7 +33,7 @@ public class HairFactory {
 		return null;
 	}
 	/*
-	 * ¸ù¾İkey
+	 * æ ¹æ®key
 	 */
 	public HairInterface getHairByKey(String key) {
 		try {

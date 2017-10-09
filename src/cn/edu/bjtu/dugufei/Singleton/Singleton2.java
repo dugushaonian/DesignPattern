@@ -1,15 +1,15 @@
 package cn.edu.bjtu.dugufei.Singleton;
 /*
- * ÀÁººÊ½
- * Çø±ğ£º¶öººÊ½£¬Ïß³Ì°²È«
- * 		ÀÁººÊ½£¬Ïß³Ì²»°²È«
+ * æ‡’æ±‰å¼
+ * åŒºåˆ«ï¼šé¥¿æ±‰å¼ï¼Œçº¿ç¨‹å®‰å…¨
+ * 		æ‡’æ±‰å¼ï¼Œçº¿ç¨‹ä¸å®‰å…¨
  */
 public class Singleton2 {
-	//1.¹¹Ôì·½·¨Ë½ÓĞ»¯
+	//1.æ„é€ æ–¹æ³•ç§æœ‰åŒ–
 	private Singleton2(){}
-	//2.ÉùÃ÷ÊµÀı
+	//2.å£°æ˜å®ä¾‹
 	private static Singleton2 instance;
-	//3.»ñÈ¡ÊµÀı·½·¨
+	//3.è·å–å®ä¾‹æ–¹æ³•
 	public static Singleton2 getInstance(){
 		if (instance == null) {
 			instance = new Singleton2();

@@ -1,6 +1,6 @@
 package cn.edu.bjtu.dugufei.Factory;
 /*
- * Ů��
+ * 女孩接口
  */
 public interface Girl {
 	public void drowGirl();

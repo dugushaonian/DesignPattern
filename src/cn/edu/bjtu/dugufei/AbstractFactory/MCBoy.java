@@ -12,7 +12,7 @@ public class MCBoy implements Boy {
 	@Override
 	public void dorwBoy() {
 		// TODO Auto-generated method stub
-		System.out.println("Ê¥µ®ÄÐº¢");
+		System.out.println("åœ£è¯žç”·å­©");
 	}
 
 }

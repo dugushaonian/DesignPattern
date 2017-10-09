@@ -1,11 +1,11 @@
 package cn.edu.bjtu.dugufei.SimpleFactory;
 /*
- * ¼òµ¥¹¤³§
- * Ä£Äâ¿Í»§¶ËÊµÏÖ
+ * ç®€å•å·¥å‚
+ * æ¨¡æ‹Ÿå®¢æˆ·ç«¯å®ç°
  */
 public class Test {
 	public static void main(String[] args) {
-		//¹¤³§Ä£Ê½
+		//ç®€å•å·¥å‚æ¨¡å¼
 //		HairInterface left = new LeftHair();
 //		left.draw();
 		HairFactory factory = new HairFactory();

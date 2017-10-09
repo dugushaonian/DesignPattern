@@ -5,7 +5,7 @@ public class RightHair implements HairInterface {
 	@Override
 	public void draw() {
 		// TODO Auto-generated method stub
-		System.out.println("--------»­³öÓÒÆ«·Ö·¢ĞÍ--------");
+		System.out.println("--------ç”»å‡ºå³ååˆ†å‘å‹--------");
 	}
 
 }

@@ -1,10 +1,10 @@
 package cn.edu.bjtu.dugufei.AbstractFactory;
 /*
- * 人物接口
+ * 浜虹墿鎺ュ彛
  */
 public interface PerssonFactory {
-	//男孩接口
+	//鐢峰鎺ュ彛
 	public Boy getBoy();
-	//女孩接口
+	//濂冲鎺ュ彛
 	public Girl getGirl();
 }

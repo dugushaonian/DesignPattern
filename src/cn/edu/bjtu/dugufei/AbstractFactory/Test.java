@@ -1,10 +1,10 @@
 package cn.edu.bjtu.dugufei.AbstractFactory;
 /*
- * Ä£Äâ¿Í»§¶ËÊµÏÖ
+ * æ¨¡æ‹Ÿå®¢æˆ·ç«¯å®ç°
  */
 public class Test {
 	public static void main(String[] args) {
-		//³éÏó¹¤³§Ä£Ê½
+		//æŠ½è±¡å·¥å‚æ¨¡å¼
 		PerssonFactory factory = new MCFactory();
 		Girl girl = factory.getGirl();
 		girl.drowGirl();

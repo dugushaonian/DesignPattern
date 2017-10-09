@@ -1,6 +1,6 @@
 package cn.edu.bjtu.dugufei.Factory;
 /*
- * 圣诞系列工厂
+ * 鍦ｈ癁绯诲垪宸ュ巶
  */
 public class MCFactory implements PerssonFactory {
 

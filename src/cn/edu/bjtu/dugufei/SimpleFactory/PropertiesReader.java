@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Properties;
 
 /*
- * properties文件的读取类
+ * properties鏂囦欢鐨勮鍙栫被
  */
 public class PropertiesReader {
 	public Map<String, String> getProperties() {

@@ -1,9 +1,9 @@
 package cn.edu.bjtu.dugufei.SimpleFactory;
 /*
- * ¹¤³§Ä£Ê½
- * ·¢ĞÍ½Ó¿Ú		
+ * ç®€å•å·¥å‚æ¨¡å¼
+ * å‘å‹æ¥å£		
  */
 public interface HairInterface {
-	//»­·¢ĞÍµÄ·½·¨
+	//ç”»å‘å‹çš„æ–¹æ³•
 	public void draw();
 }
